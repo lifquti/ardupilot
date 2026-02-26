@@ -37,7 +37,7 @@ const AP_Param::GroupInfo AP_VideoTX::var_info[] = {
     // @Param: POWER
     // @DisplayName: Video Transmitter Power Level
     // @Description: Video Transmitter Power Level. Different VTXs support different power levels, the power level chosen will be rounded down to the nearest supported power level
-    // @Range: 1 1000
+    // @Range: 1 3000
     AP_GROUPINFO("POWER",    2, AP_VideoTX, _power_mw, 0),
 
     // @Param: CHANNEL
