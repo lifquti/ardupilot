@@ -975,7 +975,7 @@ void AP_CRSF_Telem::update_vtx_params()
                     vtx.set_configured_power_mw(500);
                 }
             } else {
-                vtx.set_configured_power_mw(3000);
+                vtx.set_configured_power_mw(800);
             }
             _telem.ext.command.payload[1] = vtx.get_configured_power_level();
             _vtx_dbm_update = true;
